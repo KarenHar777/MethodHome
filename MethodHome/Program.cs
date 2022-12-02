@@ -31,6 +31,9 @@ namespace MethodHome
         static void Main(string[] args)
         {
             Sum(15, 56);
+            Sum(96, 89,67);
+            Sum(78, 89, 45, 56);
+
 
             Console.ReadKey();
         }
