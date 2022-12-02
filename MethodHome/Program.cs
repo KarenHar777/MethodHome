@@ -38,6 +38,16 @@ namespace MethodHome
             Sum(78, 89, 45, 89);
 
             Console.WriteLine(Sum1(45,89));
+            //---------------------------------------//
+
+            Random frrik = new Random();
+
+            Console.WriteLine(frrik.Next(45, 600));
+
+            //---------------------------------------//
+
+            string a = Convert.ToString(8.56);
+            Console.WriteLine(a+2);
 
             Console.ReadLine();
         }
